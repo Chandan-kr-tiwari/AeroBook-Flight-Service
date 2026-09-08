@@ -61,6 +61,10 @@ module.exports = (sequelize, DataTypes) => {
       type: DataTypes.INTEGER,
       allowNull: false
     },
+    availableSeats: {
+     type: DataTypes.INTEGER,
+   allowNull: false
+},
   }, {
     sequelize,
     modelName: 'Flight',
