@@ -28,4 +28,10 @@ router.patch(
         Authorize(ROLES.FLIGHT_COMPANY),
         FlightController.updateSeats
 );
+
+router.patch(
+    '/:id/seats/internal',
+    FlightMiddlewares.validateUpdateSeatsRequest,
+    FlightController.updateSeats
+);
 module.exports = router;

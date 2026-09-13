@@ -5,6 +5,8 @@ const authenticate = (req, res, next) => {
     try {
         const authHeader = req.headers.authorization;
 
+        console.log("Flight Service Authorization:", authHeader);
+
         if (!authHeader || !authHeader.startsWith('Bearer ')) {
             return res.status(StatusCodes.UNAUTHORIZED).json({
                 success: false,
@@ -24,6 +26,8 @@ const authenticate = (req, res, next) => {
         next();
 
     } catch (error) {
+        console.log("JWT ERROR:", error.message);
+
         return res.status(StatusCodes.UNAUTHORIZED).json({
             success: false,
             message: 'Invalid or expired token'
@@ -31,4 +35,4 @@ const authenticate = (req, res, next) => {
     }
 };
 
-module.exports = authenticate;
+module.exports=authenticate
