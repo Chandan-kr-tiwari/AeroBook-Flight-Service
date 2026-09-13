@@ -1,13 +1,16 @@
 const express = require('express');
 
 const { FlightController } = require('../../controllers');
-const { FlightMiddlewares } = require('../../middlewares');
+const { FlightMiddlewares , Authenticate, Authorize } = require('../../middlewares');
+const { ROLES } = require('../../utils/common/enums');
 
 const router = express.Router();
 
 // /api/v1/flights POST
 router.post('/', 
         FlightMiddlewares.validateCreateRequest,
+        Authenticate,
+        Authorize(ROLES.FLIGHT_COMPANY),
         FlightController.createFlight);
 
 // /api/v1/flights?trips=MUM-DEL GET
@@ -21,6 +24,8 @@ router.get('/:id',
 router.patch(
         '/:id/seats', 
         FlightMiddlewares.validateUpdateSeatsRequest,
+        Authenticate,
+        Authorize(ROLES.FLIGHT_COMPANY),
         FlightController.updateSeats
 );
 module.exports = router;
