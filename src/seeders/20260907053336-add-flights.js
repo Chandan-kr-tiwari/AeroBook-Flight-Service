@@ -8,52 +8,51 @@ module.exports = {
             // =====================================================
             // DELHI → MUMBAI
             // =====================================================
+              
+               {
+    flightNumber: 'AI101',
+    airplaneId: 1,
+    departureAirportId: 'DEL',
+    arrivalAirportId: 'BOM',
+    departureTime: new Date('2026-09-15T06:00:00'),
+    arrivalTime: new Date('2026-09-15T08:15:00'),
+    price: 4500,
+    boardingGate: 'A1',
+    totalSeats: 180,
+    availableSeats: 180,
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
 
-            {
-                flightNumber: 'AI101',
-                airplaneId: 8,
-                departureAirportId: 'DEL',
-                arrivalAirportId: 'BOM',
-                departureTime: new Date('2026-09-15T06:00:00'),
-                arrivalTime: new Date('2026-09-15T08:15:00'),
-                price: 4500,
-                boardingGate: 'A1',
-                totalSeats: 180,
-                availableSeats: 180,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
+{
+    flightNumber: '6E201',
+    airplaneId: 2,
+    departureAirportId: 'DEL',
+    arrivalAirportId: 'BOM',
+    departureTime: new Date('2026-09-15T10:30:00'),
+    arrivalTime: new Date('2026-09-15T12:45:00'),
+    price: 5200,
+    boardingGate: 'A4',
+    totalSeats: 180,
+    availableSeats: 120,
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
 
-            {
-                flightNumber: '6E201',
-                airplaneId: 9,
-                departureAirportId: 'DEL',
-                arrivalAirportId: 'BOM',
-                departureTime: new Date('2026-09-15T10:30:00'),
-                arrivalTime: new Date('2026-09-15T12:45:00'),
-                price: 5200,
-                boardingGate: 'A4',
-                totalSeats: 180,
-                availableSeats: 120,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-
-            {
-                flightNumber: 'UK301',
-                airplaneId: 7,
-                departureAirportId: 'DEL',
-                arrivalAirportId: 'BOM',
-                departureTime: new Date('2026-09-15T18:00:00'),
-                arrivalTime: new Date('2026-09-15T20:20:00'),
-                price: 7800,
-                boardingGate: 'B2',
-                totalSeats: 250,
-                availableSeats: 45,
-                createdAt: new Date(),
-                updatedAt: new Date()
-            },
-
+{
+    flightNumber: 'UK301',
+    airplaneId: 3,
+    departureAirportId: 'DEL',
+    arrivalAirportId: 'BOM',
+    departureTime: new Date('2026-09-15T18:00:00'),
+    arrivalTime: new Date('2026-09-15T20:20:00'),
+    price: 7800,
+    boardingGate: 'B2',
+    totalSeats: 250,
+    availableSeats: 45,
+    createdAt: new Date(),
+    updatedAt: new Date()
+},
 
             // =====================================================
             // MUMBAI → DELHI
@@ -61,7 +60,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI102',
-                airplaneId: 6,
+                airplaneId: 1,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-15T07:00:00'),
@@ -76,7 +75,7 @@ module.exports = {
 
             {
                 flightNumber: '6E202',
-                airplaneId: 10,
+                airplaneId: 2,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-15T13:00:00'),
@@ -91,7 +90,7 @@ module.exports = {
 
             {
                 flightNumber: 'UK302',
-                airplaneId: 12,
+                airplaneId: 3,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-15T21:00:00'),
@@ -111,7 +110,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI401',
-                airplaneId: 11,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-16T06:30:00'),
@@ -126,7 +125,7 @@ module.exports = {
 
             {
                 flightNumber: '6E402',
-                airplaneId: 12,
+                airplaneId: 2,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-16T11:00:00'),
@@ -141,7 +140,7 @@ module.exports = {
 
             {
                 flightNumber: 'UK403',
-                airplaneId: 9,
+                airplaneId: 3,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-16T19:30:00'),
@@ -161,7 +160,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI404',
-                airplaneId: 17,
+                airplaneId: 1,
                 departureAirportId: 'BLR',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-16T07:30:00'),
@@ -176,7 +175,7 @@ module.exports = {
 
             {
                 flightNumber: '6E405',
-                airplaneId: 16,
+                airplaneId: 2,
                 departureAirportId: 'BLR',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-16T14:00:00'),
@@ -196,7 +195,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI501',
-                airplaneId: 8,
+                airplaneId: 1,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-17T06:00:00'),
@@ -211,7 +210,7 @@ module.exports = {
 
             {
                 flightNumber: '6E502',
-                airplaneId: 9,
+                airplaneId: 2,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-17T12:00:00'),
@@ -226,7 +225,7 @@ module.exports = {
 
             {
                 flightNumber: 'UK503',
-                airplaneId: 10,
+                airplaneId: 2,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'BLR',
                 departureTime: new Date('2026-09-17T20:30:00'),
@@ -246,7 +245,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI504',
-                airplaneId: 8,
+                airplaneId: 1,
                 departureAirportId: 'BLR',
                 arrivalAirportId: 'BOM',
                 departureTime: new Date('2026-09-17T08:00:00'),
@@ -261,7 +260,7 @@ module.exports = {
 
             {
                 flightNumber: '6E505',
-                airplaneId: 10,
+                airplaneId: 2,
                 departureAirportId: 'BLR',
                 arrivalAirportId: 'BOM',
                 departureTime: new Date('2026-09-17T16:00:00'),
@@ -281,7 +280,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI601',
-                airplaneId: 11,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'HYD',
                 departureTime: new Date('2026-09-18T07:00:00'),
@@ -296,7 +295,7 @@ module.exports = {
 
             {
                 flightNumber: '6E602',
-                airplaneId: 6,
+                airplaneId: 2,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'HYD',
                 departureTime: new Date('2026-09-18T15:00:00'),
@@ -316,7 +315,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI603',
-                airplaneId: 8,
+                airplaneId: 3,
                 departureAirportId: 'HYD',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-18T10:30:00'),
@@ -336,7 +335,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI701',
-                airplaneId: 11,
+                airplaneId: 1,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'MAA',
                 departureTime: new Date('2026-09-19T06:30:00'),
@@ -351,7 +350,7 @@ module.exports = {
 
             {
                 flightNumber: '6E702',
-                airplaneId: 12,
+                airplaneId: 3,
                 departureAirportId: 'BOM',
                 arrivalAirportId: 'MAA',
                 departureTime: new Date('2026-09-19T18:00:00'),
@@ -371,7 +370,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI703',
-                airplaneId: 7,
+                airplaneId: 3,
                 departureAirportId: 'MAA',
                 arrivalAirportId: 'BOM',
                 departureTime: new Date('2026-09-19T09:30:00'),
@@ -391,7 +390,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI801',
-                airplaneId: 9,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'CCU',
                 departureTime: new Date('2026-09-20T08:00:00'),
@@ -406,7 +405,7 @@ module.exports = {
 
             {
                 flightNumber: '6E802',
-                airplaneId: 10,
+                airplaneId: 2,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'CCU',
                 departureTime: new Date('2026-09-20T17:00:00'),
@@ -426,7 +425,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI803',
-                airplaneId: 11,
+                airplaneId: 1,
                 departureAirportId: 'CCU',
                 arrivalAirportId: 'DEL',
                 departureTime: new Date('2026-09-20T11:30:00'),
@@ -446,7 +445,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI901',
-                airplaneId: 6,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'PNQ',
                 departureTime: new Date('2026-09-21T07:30:00'),
@@ -461,7 +460,7 @@ module.exports = {
 
             {
                 flightNumber: '6E902',
-                airplaneId: 6,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'PNQ',
                 departureTime: new Date('2026-09-21T16:30:00'),
@@ -481,7 +480,7 @@ module.exports = {
 
             {
                 flightNumber: 'AI1001',
-                airplaneId: 7,
+                airplaneId: 3,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'GOX',
                 departureTime: new Date('2026-09-22T06:00:00'),
@@ -496,7 +495,7 @@ module.exports = {
 
             {
                 flightNumber: '6E1002',
-                airplaneId: 8,
+                airplaneId: 1,
                 departureAirportId: 'DEL',
                 arrivalAirportId: 'GOI',
                 departureTime: new Date('2026-09-22T14:00:00'),
